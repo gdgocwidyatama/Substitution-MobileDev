@@ -1,0 +1,3 @@
+[submodule "submissions/dwi"]
+	path = submissions/dwi
+	url = https://github.com/pavelc4/auriya.git
