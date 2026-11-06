@@ -13,7 +13,7 @@ Sebelum mulai, pastikan:
 
 ---
 
-## 2. Langkah Pengumpulan (Hanya 6 Langkah Cepat!)
+## 2. Langkah Pengumpulan 
 
 ### Langkah 1: Fork Repositori
 1. Klik tombol **Fork** di pojok kanan atas, lalu klik **Create fork**.
