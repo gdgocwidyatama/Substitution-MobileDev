@@ -7,7 +7,7 @@ Panduan singkat cara mengumpulkan tugas akhir (Capstone Project) aplikasi **Lumi
 
 ## 1. Prasyarat Singkat
 Sebelum mulai, pastikan:
-- [x] Mini Project LuminaWalls di laptop kamu sudah selesai (Sesi 1 - 5).
+- [x] Mini Project kamu sudah selesai (Sesi 1 - 5).
 - [x] Repositori GitHub pribadimu disetel ke **Public** (bukan Private).
 - [x] Semua kode lokal sudah kamu push ke branch `main` di GitHub pribadimu.
 
@@ -16,8 +16,7 @@ Sebelum mulai, pastikan:
 ## 2. Langkah Pengumpulan (Hanya 6 Langkah Cepat!)
 
 ### Langkah 1: Fork Repositori
-1. Buka link ini di browser: 👉 **`https://github.com/gdgocwidyatama/Substitution-MobileDev`**
-2. Klik tombol **Fork** di pojok kanan atas, lalu klik **Create fork**.
+1. Klik tombol **Fork** di pojok kanan atas, lalu klik **Create fork**.
 
 ---
 
@@ -86,29 +85,9 @@ git push origin submit/dimas-dwi-ariyanto
    Submission Capstone - Dimas Dwi Ariyanto
    ```
 4. **Deskripsi PR**: Kotak deskripsi sudah otomatis terisi formulir data diri dari sistem. Kamu cukup melengkapi data kamu (Nama, Username, Email, dan link repo).
-5. Klik **Create pull request**. Selesai! 🎉
+5. Klik **Create pull request**. Selesai! 
 
 > [!NOTE]
 > Kamu **tidak perlu mengedit file `CONTRIBUTORS.md`**. Data dirimu akan dimasukkan ke tabel kontributor secara otomatis oleh GitHub bot saat PR di-merge oleh panitia!
 
 ---
-
-## 3. Pertanyaan Sering Ditanyakan (FAQ)
-
-### Tanya: "Setelah buka PR, saya ada update perbaikan kode di repo LuminaWalls. Harus bikin PR baru?"
-**Jawab:** Tidak perlu! Cukup buka Terminal di folder `Substitution-MobileDev`, lalu jalankan:
-```bash
-cd submissions/nama-kamu
-git pull origin main
-cd ../..
-git commit -am "update: revisi kode aplikasi"
-git push origin submit/nama-kamu
-```
-PR kamu di GitHub akan otomatis ter-update sendiri.
-
-### Tanya: "Muncul error 'destination path already exists in index'?"
-**Jawab:** Hapus cache Git folder tersebut dengan perintah:
-```bash
-git rm --cached submissions/nama-kamu
-```
-Lalu ulangi Langkah 4 dengan benar.
